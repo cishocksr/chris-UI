@@ -227,3 +227,10 @@ footer {
 .main-section .banner h3 {
   font-size: 3rem;
 }
+.main-section .banner button {
+  width: 10rem;
+  height: 4rem;
+}
+.main-section .banner button a {
+  text-decoration: none;
+}
