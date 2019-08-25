@@ -12,13 +12,21 @@
         @media @mobile {
             flex-wrap: wrap;
             justify-content: center;
-            padding-top: 10px;
         }
 
         .logo {
             margin: 0 1.2rem;
-            font-size: 1.6rem;
-            color: @nav-background;
+            font-size: 2.5rem;
+
+            @media @mobile {
+                padding: 10px;
+                font-size: 3rem;
+            }
+
+            a {
+                color: @nav-background;
+                text-decoration: none;
+            }
         }
 
         .nav {
@@ -28,7 +36,8 @@
 
             @media @mobile {
                 width: 100%;
-                justify-content: space-around;
+                padding: 8px;
+                justify-content: space-between;
             }
 
             .nav-links {
@@ -40,5 +49,3 @@
         }
     }
 }
-
-// .main-navigation
