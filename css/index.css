@@ -224,6 +224,12 @@ footer {
   background-size: cover;
   background-position: center;
 }
+@media (max-width: 500px) {
+  .container {
+    background-size: cover;
+    background-position: inherit;
+  }
+}
 .main-section .banner {
   text-align: center;
   padding-top: 15%;
