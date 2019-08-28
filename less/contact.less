@@ -1,0 +1,37 @@
+.contact {
+    .center();
+    flex-direction: column;
+
+    .contact-title {
+        font-size: 5rem;
+        color: whitesmoke;
+        margin-top: 3em;
+
+        h1 {
+            text-transform: uppercase;
+        }
+    }
+
+    .contact-form {
+        margin: 50px;
+
+        #contact-form {
+            .center();
+            flex-direction: column;
+
+            .form-control {
+                width: 400px;
+                border-bottom: 1px solid black;
+                color: #ffffff;
+                font-size: 18px;
+                margin-bottom: 10px;
+                background-color: @nav-background;
+            }
+
+            .submit-btn {
+                .center();
+                .button-creator(200px, 45px, @main-text, @nav-background, 1.8rem);
+            }
+        }
+    }
+}
