@@ -176,6 +176,7 @@ p {
   .navigation .nav-container {
     flex-wrap: wrap;
     justify-content: center;
+    position: sticky;
   }
 }
 .navigation .nav-container .logo {
@@ -219,7 +220,7 @@ footer {
   align-items: center;
 }
 .container {
-  background-image: url(/img/hammock.jpeg);
+  background-image: url(/chris-UI/img/hammock.jpeg);
   height: 100%;
   background-size: cover;
   background-position: center;
@@ -228,6 +229,7 @@ footer {
   .container {
     background-size: cover;
     background-position: inherit;
+    height: 70rem;
   }
 }
 .main-section .banner {
