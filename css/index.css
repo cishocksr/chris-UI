@@ -177,7 +177,7 @@ p {
     flex-wrap: wrap;
     justify-content: center;
     overflow: hidden;
-    background-color: #333;
+    background-color: #87889C;
     position: fixed;
     top: 0;
     height: 8rem;
@@ -299,6 +299,7 @@ footer {
 }
 .contact .contact-form {
   margin: 50px;
+  animation: slideIn 3s;
 }
 .contact .contact-form #contact-form {
   display: flex;
@@ -326,6 +327,7 @@ footer {
   border: 1px solid #C0C0C0;
   cursor: pointer;
   font-size: 1.8rem;
+  animation: pullUp 5s;
 }
 @media (max-width: 500px) {
   .contact .contact-form #contact-form .submit-btn {
@@ -335,4 +337,14 @@ footer {
 .contact .contact-form #contact-form .submit-btn:hover {
   background: #131862;
   color: #C0C0C0;
+}
+@keyframes slideIn {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
