@@ -17,10 +17,15 @@
         margin: 50px;
         animation: slideIn 3s;
 
+        @media @mobile {
+            width: 95%;
+        }
+
 
         #contact-form {
             .center();
             flex-direction: column;
+
 
             .form-control {
                 width: 400px;
@@ -35,6 +40,10 @@
                 .center();
                 .button-creator(200px, 45px, @main-text, @nav-background, 1.8rem);
                 animation: pullUp 5s;
+
+                @media @tablet {
+                    width: 90%;
+                }
             }
         }
         @keyframes slideIn {
@@ -47,17 +56,7 @@
               margin-left: 0%;
               width: 100%;
             }
-          }
-        
-        // @keyframes pullUp {
-        //     from {
-        //         margin-bottom: 100%;
+        }
 
-        //     }
-
-        //     to{
-        //         margin-top: 0%;
-        //     }
-        //}
     }
 }
